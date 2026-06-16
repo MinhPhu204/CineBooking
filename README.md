@@ -33,8 +33,13 @@ npm start
 
 ---
 
-## Các tài khoản mặc định (Nếu có cấu hình)
-- TBD
+## Các tài khoản mặc định (Môi trường phát triển)
+- **Tài khoản Admin (Quản trị viên):**
+  - Email: `admin@cinema.com`
+  - Mật khẩu: `admin123`
+- **Tài khoản Staff (Nhân viên soát vé):**
+  - Email: `staff@cinema.com`
+  - Mật khẩu: `staff123`
 
 ## Xử lý sự cố thường gặp
 - **Lỗi `EADDRINUSE: address already in use :::5000`**: Cổng 5000 đã bị chiếm dụng bởi một tiến trình Node.js trước đó. Hãy tắt Terminal cũ đi, hoặc dùng lệnh kill process (trên Windows: `netstat -ano | findstr :5000` sau đó `taskkill /PID <PID> /F`).
